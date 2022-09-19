@@ -1,0 +1,14 @@
+function Calculator(number, operator, numberTwo) {
+     
+     if(operator == "+") {
+      console.log((number + numberTwo).toFixed(2))
+    }else if(operator == "-") {
+      console.log((number - numberTwo).toFixed(2))
+    }else if(operator == "*") {
+      console.log((number * numberTwo).toFixed(2))
+    }else if(operator == "/") {
+      console.log((number / numberTwo).toFixed(2))
+   } else {
+ }
+
+} 
